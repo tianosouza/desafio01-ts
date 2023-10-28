@@ -13,11 +13,11 @@ export abstract class DioAccount {
     
     console.log('O número da sua conta é ' + this.accountNumber)
   }  
-
-  setName = (name: string): void => {
-    this.name = name
-    console.log('Nome alterado com sucesso! Novo nome: ' + name)
-  } 
+/* Função desabilitada */
+  // private setName = (name: string): void => {
+  //   this.name = name
+  //   console.log('Nome alterado com sucesso! Novo nome: ' + name)
+  // } 
 
   getName = (): void => {
     console.log(this.name) 

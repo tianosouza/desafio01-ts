@@ -16,7 +16,6 @@ peopleAccount.withdraw(10)
 peopleAccount.getBalance()
 peopleAccount.deposit(1000)
 peopleAccount.getBalance()
-peopleAccount.setName('tiano')
 console.log(peopleAccount)
 
 /* Contas do banco */
@@ -32,7 +31,6 @@ companyAccount.getLoan(1000)
 companyAccount.getBalance()
 companyAccount.withdraw(50)
 companyAccount.getBalance()
-companyAccount.setName('TIANO-Bank')
 console.log(companyAccount)
 
 /* Contas especiais */
@@ -47,7 +45,6 @@ specialAccount.deposit(3000)
 specialAccount.getBalance()
 specialAccount.withdraw(2000)
 specialAccount.getBalance()
-specialAccount.setName('Leticia')
 console.log(specialAccount)
 
 
